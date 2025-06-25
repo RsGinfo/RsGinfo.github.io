@@ -1,2 +1,2 @@
-# .github.io
+# EyeCare - Timer
 privacy and terms
