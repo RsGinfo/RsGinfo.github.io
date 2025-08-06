@@ -4,7 +4,8 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>RSG Studios</title>
-  <!-- Placeholder for Google site verification -->
+  <meta name="description" content="RSG Studios - Simple, focused mobile apps for daily life" />
+  <!-- Add your Google site verification meta tag here -->
   <!-- <meta name="google-site-verification" content="YOUR_VERIFICATION_CODE_HERE" /> -->
   <style>
     body {
@@ -17,27 +18,49 @@
       background: #111;
       color: #f8f8f8;
       padding: 1rem 2rem;
-      text-align: left;
+      display: flex;
+      align-items: center;
+    }
+    header img {
+      height: 40px;
+      margin-right: 1rem;
+    }
+    header span {
       font-size: 1.8rem;
       font-weight: bold;
     }
     section.hero {
-      background: radial-gradient(circle at center, #f5af19, #f12711);
+      background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Sunset_background.svg/1280px-Sunset_background.svg.png') center/cover no-repeat;
       color: white;
-      padding: 4rem 2rem;
+      padding: 5rem 2rem;
       text-align: center;
     }
     section.hero h1 {
       margin-bottom: 1rem;
-      font-size: 2.5rem;
+      font-size: 2.8rem;
     }
     section.content {
       padding: 2rem;
-      max-width: 800px;
+      max-width: 900px;
       margin: auto;
     }
     section.content h2 {
       color: #333;
+      margin-top: 2rem;
+    }
+    .app-box {
+      background: #f9f9f9;
+      border: 1px solid #ddd;
+      padding: 1rem;
+      border-radius: 6px;
+      margin-bottom: 2rem;
+      display: flex;
+      align-items: center;
+    }
+    .app-box img {
+      width: 64px;
+      height: 64px;
+      margin-right: 1rem;
     }
     footer {
       text-align: center;
@@ -54,7 +77,8 @@
 </head>
 <body>
   <header>
-    rsg-studios
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Circle-icons-crown.svg/1024px-Circle-icons-crown.svg.png" alt="Logo" />
+    <span>rsg-studios</span>
   </header>
 
   <section class="hero">
@@ -65,9 +89,25 @@
   <section class="content">
     <h2>About Us</h2>
     <p>
-      We create simple, focused, and intuitive mobile applications designed to improve everyday life through smart and clean technology.
-      Our approach values clarity, quality, and innovation that speaks for itself.
+      RSG Studios creates thoughtful and intuitive mobile apps designed to enhance everyday well-being, productivity, and focus. 
+      We believe technology should support clarity, balance, and real-life value.
     </p>
+
+    <h2>Our Apps</h2>
+    <div class="app-box">
+      <img src="https://cdn-icons-png.flaticon.com/512/2991/2991148.png" alt="Article Reader Icon" />
+      <div>
+        <strong>Article Reader</strong><br />
+        Effortlessly scan and extract meaningful content from articles – for focused reading and streamlined knowledge.
+      </div>
+    </div>
+    <div class="app-box">
+      <img src="https://cdn-icons-png.flaticon.com/512/709/709790.png" alt="Screen Break Icon" />
+      <div>
+        <strong>Screen Break Reminder</strong><br />
+        A gentle, customizable break reminder to help reduce eye strain and promote healthy screen time habits.
+      </div>
+    </div>
 
     <h2>Contact</h2>
     <p>
