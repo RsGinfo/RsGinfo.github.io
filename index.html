@@ -10,7 +10,7 @@
   <style>
     body {
       margin: 0;
-      font-family: Arial, sans-serif;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       background: #ffffff;
       color: #222;
     }
@@ -26,7 +26,7 @@
       margin-right: 1rem;
     }
     header span {
-      font-size: 1.8rem;
+      font-size: 2rem;
       font-weight: bold;
     }
     section.hero {
@@ -37,7 +37,12 @@
     }
     section.hero h1 {
       margin-bottom: 1rem;
-      font-size: 2.8rem;
+      font-size: 3rem;
+      font-weight: bold;
+    }
+    section.hero p {
+      font-size: 1.2rem;
+      font-weight: 500;
     }
     section.content {
       padding: 2rem;
@@ -47,20 +52,33 @@
     section.content h2 {
       color: #333;
       margin-top: 2rem;
+      font-size: 1.6rem;
+      font-weight: 600;
     }
     .app-box {
       background: #f9f9f9;
       border: 1px solid #ddd;
-      padding: 1rem;
-      border-radius: 6px;
+      padding: 1.5rem;
+      border-radius: 8px;
       margin-bottom: 2rem;
       display: flex;
-      align-items: center;
+      align-items: flex-start;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
     }
     .app-box img {
-      width: 64px;
-      height: 64px;
-      margin-right: 1rem;
+      width: 72px;
+      height: 72px;
+      margin-right: 1.5rem;
+    }
+    .app-box strong {
+      font-size: 1.2rem;
+      font-weight: 600;
+      display: block;
+      margin-bottom: 0.3rem;
+    }
+    .app-box div {
+      font-size: 1rem;
+      line-height: 1.5;
     }
     footer {
       text-align: center;
@@ -68,10 +86,16 @@
       font-size: 0.9rem;
       background: #f2f2f2;
       margin-top: 2rem;
+      color: #555;
     }
     a {
       color: #f12711;
       text-decoration: none;
+      font-weight: 500;
+    }
+    p {
+      font-size: 1rem;
+      line-height: 1.6;
     }
   </style>
 </head>
@@ -89,47 +113,48 @@
   <section class="content">
     <h2>About Us</h2>
     <p>
-      We create simple, focused, and intuitive mobile applications designed to improve everyday life through smart and clean technology.
-      Our approach values clarity, quality, and innovation that speaks for itself. 
+      <strong>RSG Studios</strong> creates simple, focused, and intuitive mobile applications designed to improve everyday life through smart and clean technology.
+      Our approach values <strong>clarity, quality</strong>, and <strong>innovation</strong> that speaks for itself. 
     </p>
 
     <h2>Our Apps</h2>
     <div class="app-box">
-      <img src="images/eyecare.png" alt="Screen Break Icon" />
+      <img src="images/appeyecare.png" alt="Screen Break Icon" />
       <div>
         <strong>EyeCare Timer</strong><br />
-        Give Your Eyes the Break They DeserveStaring at screens all day? Our app is here to help!
-        Based on the 20-20-20 rule, it reminds you to look away every 20 minutes for 20 seconds — a simple habit that can reduce eye strain and protect your vision.
-        Stay productive and healthy.
+        <b>Give Your Eyes the Break They Deserve</b><br />
+        Staring at screens all day? Our app is here to help!<br />
+        Based on the <b>20-20-20 rule</b>, it reminds you to look away every 20 minutes for 20 seconds — a simple habit that can reduce eye strain and protect your vision.<br />
+        <b>Stay productive and healthy.</b><br />
         Download now and start taking care of your eyes – one break at a time.
       </div>
     </div>
     <div class="app-box">
       <img src="images/articlereader.png" alt="Article Reader Icon" />
       <div>
-        <strong>Article Reader - Soon </strong><br />
-        Read Smarter, Learn Faster
-        Turn any article into a smooth, distraction-free reading experience.
-        With instant word translation, personal vocabulary tracking, and exportable word lists, you’ll never miss a meaning again.
-        Whether you're learning a new language or just reading on the go — this app is your perfect reading companion.
+        <strong>Article Reader – Coming Soon</strong><br />
+        <b>Read Smarter, Learn Faster</b><br />
+        Turn any article into a smooth, distraction-free reading experience.<br />
+        With <b>instant word translation</b>, <b>personal vocabulary tracking</b>, and <b>exportable word lists</b>, you’ll never miss a meaning again.<br />
+        Whether you're learning a new language or just reading on the go — this app is your <b>perfect reading companion</b>.
       </div>
     </div>
 
     <h2>Contact</h2>
     <p>
       Have questions or feedback? We’d love to hear from you.<br />
-      ✉️ Email: <a href="mailto:suppeyes@gmail.com ">suppeyes@gmail.com </a>
+      ✉️ Email: <a href="mailto:suppeyes@gmail.com">suppeyes@gmail.com</a>
     </p>
 
     <h2>Privacy & Terms</h2>
-    <ul>
-      <p>
-        This website does not collect any personal data.<br />
-        For app-related privacy information, please see our full <a href="https://rsginfo.github.io/privacy" target="_blank">Privacy Policy</a></p>
-      <p>
-        By using this website, you agree to basic terms of access and viewing.<br />
-        For terms regarding our mobile apps, see our full <a href="https://rsginfo.github.io/terms" target="_blank">Terms of Service</a></p>
-    </ul>
+    <p>
+      This website does not collect any personal data.<br />
+      For app-related privacy information, please see our full <a href="https://rsginfo.github.io/privacy" target="_blank">Privacy Policy</a>.
+    </p>
+    <p>
+      By using this website, you agree to basic terms of access and viewing.<br />
+      For terms regarding our mobile apps, see our full <a href="https://rsginfo.github.io/terms" target="_blank">Terms of Service</a>.
+    </p>
   </section>
 
   <footer>
